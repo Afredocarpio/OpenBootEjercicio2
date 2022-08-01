@@ -18,30 +18,29 @@ public class Main {
        }
 
         /*Paso 2*/
-        int numeroWhile = 1;
-        while (numeroWhile < 5) {
+        int numeroWhile = 0;
+        while (numeroWhile < 3) {
             System.out.println("Respuesta While : " + numeroWhile);
             numeroWhile++;
         }
 
         /*Paso 3*/
 
-        int numDoWhile = 1;
+        int numDoWhile = 2;
         do {
             System.out.println("Respuesta DoWhile : " + numDoWhile);
             numDoWhile++;
         }
-        while (numDoWhile < 2);
+        while (numDoWhile < 3);
 
         /*Paso 3*/
-
         for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
             System.out.println("Respuesta For: " + numeroFor);
         }
 
         /*Paso Cuatro*/
 
-        var estacion = "";
+        String estacion = "primavera";
         switch (estacion) {
             case "verano":
                 System.out.println("Es Verano");
@@ -58,5 +57,7 @@ public class Main {
             default:
                 System.out.println("No es una Estacion");
         }
+
+
     }
 }
